@@ -14,16 +14,8 @@ A lightweight Python/Flask web interface for AllStarLink v3 nodes to quickly tun
 sudo apt update
 sudo apt install python3-flask git -y
 python3 app.py
-Open in your browser:
 
-Plaintext
-http://<your-pi-ip>:5000
 
-4. Click **Commit changes...** in the top right.
-
----
-
-### You're all set!
 Your repository is completely functional and ready to be used or cloned onto any node.
 Open port 5000 on the firewall (ASL3/Debian):
 
