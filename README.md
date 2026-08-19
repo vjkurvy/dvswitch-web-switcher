@@ -10,11 +10,22 @@ A lightweight Python/Flask web interface for AllStarLink v3 nodes to quickly tun
 ## Installation & Setup
 
 1. **Install requirements:**
-   ```bash
-   sudo apt update
-   sudo apt install python3-flask git -y
+```bash
+sudo apt update
+sudo apt install python3-flask git -y
+python3 app.py
+Open in your browser:
 
-   Open port 5000 on the firewall (ASL3/Debian):
+Plaintext
+http://<your-pi-ip>:5000
+
+4. Click **Commit changes...** in the top right.
+
+---
+
+### You're all set!
+Your repository is completely functional and ready to be used or cloned onto any node.
+Open port 5000 on the firewall (ASL3/Debian):
 
 Bash
 sudo firewall-cmd --add-port=5000/tcp --permanent
@@ -31,13 +42,4 @@ git clone [https://github.com/vjkurvy/dvswitch-web-switcher.git](https://github.
 cd dvswitch-web-switcher
 python3 app.py
 Open in your browser:
-
-Plaintext
-http://<your-pi-ip>:5000
-
-4. Click **Commit changes...** in the top right.
-
----
-
-### You're all set!
-Your repository is completely functional and ready to be used or cloned onto any node.
+Navigate to http://<your-pi-ip>:5000
