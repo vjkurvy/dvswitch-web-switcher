@@ -28,3 +28,8 @@ python3 app.py
 
 Open your browser to: http://<your-ip>:5000
 
+Full installer
+git clone https://github.com/vjkurvy/dvswitch-web-switcher.git
+cd dvswitch-web-switcher
+python3 app.py
+
